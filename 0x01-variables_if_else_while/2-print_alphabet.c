@@ -6,15 +6,15 @@
 #include <stdio.h>
  
 /**
- *main prints the alphabet in lowercase.
+ *main - prints the alphabet in lowercase.
  *
- * return: always 0.
+ * Return: always 0.
  */
 int main(void)
 {
 char letter;
 
-for(letter = 'a';letter <= 'z';letter++)
+for(letter = 'a'; letter <= 'z'; letter++)
 	putchar(letter);
 
 putchar('\n');
