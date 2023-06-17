@@ -1,6 +1,6 @@
 /*
  * File: 5-print_numbers.c
- * Auth: inrahim M zayed
+ * Auth: ibrahim M zayed
  */
 
 #include <stdio.h>
@@ -14,7 +14,7 @@ int main(void)
 {
 	int number;
 
-	for (number = '0'; numder <= '10'; number++)i
+	for (number = 0; number <= 10; number++)
 			printf("%d", number);
 	
 	printf("\n");
